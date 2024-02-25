@@ -11,8 +11,8 @@ import logoFro from "./logoFro.png";
 import spiderman from "./spiderman.jpg";
 import MoreVertOutlinedIcon from "@mui/icons-material/MoreVertOutlined";
 import AccountCircleRoundedIcon from "@mui/icons-material/AccountCircleRounded";
-import LogoutRoundedIcon from '@mui/icons-material/LogoutRounded';
-import Color from './Colour';
+import LogoutRoundedIcon from "@mui/icons-material/LogoutRounded";
+import Color from "./Colour";
 function Home() {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -75,15 +75,17 @@ function Home() {
                   }}
                 >
                   <AccountCircleRoundedIcon style={{ marginRight: "5px" }} />
-                  Your Profile
+                  Profile
                 </Link>
               </li>
-              <li onClick={handleLogout}><LogoutRoundedIcon style={{ marginRight: "5px" }}/>  Logout</li>
+              <li onClick={handleLogout}>
+                <LogoutRoundedIcon style={{ marginRight: "5px" }} /> Logout
+              </li>
             </ul>
           )}
         </div>
       </div>
-      <Color/>
+      <Color />
     </div>
   );
 }
