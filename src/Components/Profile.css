@@ -1,0 +1,129 @@
+.app{
+    display: flex;
+}
+
+.profile {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .cover-profile {
+    position: relative;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .user-details {
+    margin-top: 80px; /* Adjust as needed */
+    text-align: center;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+  }
+  
+  .stat {
+    margin: 0 10px;
+  }
+  
+  .profile-posts {
+    margin-top: 40px; /* Adjust as needed */
+  }
+  
+  /* Additional styling for posts */
+  .profile-posts ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .profile-posts li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  .profile-actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 60px;
+}
+#eb{
+    background-color: rgb(59, 58, 58);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* Profile.css */
+.share-options {
+    position: absolute;
+    background-color: rgb(52, 49, 49);
+    border: 1px solid #ccccccbe;
+    border-radius: 5px;
+    padding: 15px;
+    bottom: -35px;
+    right: -30px;
+    z-index: 1;
+  }
+  
+  .social-media-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 4px;
+  }
+  
+  .social-media-list li {
+    display: inline-block; /* or inline */
+    margin-right: 10px; /* adjust as needed for spacing */
+  }
+  
+  .facebook-icon,
+  .instagram-icon,
+  .twitter-icon {
+    cursor: pointer;
+    /* Add icon styling */
+  }
+  
+  .dropdown-menu1{
+    position: absolute;
+    top: 75%;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.142);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 70%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .share{
+    display: flex;
+    align-items: center;
+  }

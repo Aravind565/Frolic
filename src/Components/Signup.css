@@ -1,0 +1,153 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .error-message {
+    text-align: center;
+    color: rgb(193, 50, 42); 
+    margin-top: 1px; 
+  }
+  
+  #loghome {
+    margin-left: 150px;
+    margin-top: 100px; 
+    position: absolute;
+  }
+  
+  #loghome1 {
+    margin-left: 980px;
+    margin-top: 70px; 
+    position: absolute;
+    height: 82px;
+  }
+  
+  .signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100vh;
+    justify-content: center;
+    padding-right: 300px;
+  }
+  
+  .signup-form {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 11px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 15px;
+  }
+  
+  .signup-form button {
+    width: 97%;
+    padding: 11px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: 12px;
+  }
+  
+  .or-divider {
+    display: flex;
+  }
+  
+  #line {
+    width: 119px;
+  }
+  
+  .or-divider span {
+    padding: 0 10px;
+    font-size: 14px;
+    color: white; 
+  }
+  
+  .signup {
+    width: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .signup button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 45px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: 10px; 
+  }
+  
+  #sup {
+    color: rgb(29, 155, 240);
+    margin-left: 5px;
+    margin-right: 25px;
+  }
+  
+  .app-download-buttons {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    width: 250px;
+  }
+  
+  #app {
+    margin-top: 30px;
+    margin-left: -45px;
+    height: 50px;
+    width: 150px;
+  }
+  
+  #app1 {
+    margin-top: 30px;
+    margin-left: 5px;
+    height: 42px;
+    width: 150px;
+  }
+  
+  #from {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 70px;
+  }
+  #sup{
+    color:rgb(29, 155, 240);
+  }
+  .error-message {
+    text-align: center;
+    color: rgb(193, 50, 42); 
+    margin-top: 12px; 
+  }
+  .ccc{
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Add this line */
+        position: relative;
+      }
+  

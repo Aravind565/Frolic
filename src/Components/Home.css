@@ -1,0 +1,77 @@
+ .app{
+  background: linear-gradient(107deg, rgb(14, 14, 14) 11.1%, rgb(27, 27, 27) 95.3%);
+  }
+   .sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: black;
+    overflow-y: auto; 
+    border-right: 1px solid #ddd;
+    border-radius: 5px;
+    position: fixed; 
+  }
+  #sdimg{
+    height: 75px;
+    width: 80%;
+  }
+  .sidebar ul {
+    list-style-type: none;
+    padding: 7px;
+  }
+  
+  .sidebar ul li {
+    padding: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: 'Arcade 8Bit Font'
+  }
+  
+  .sidebar ul li:last-child {
+    border-bottom: none; 
+  }
+  
+  .content {
+    flex: 1;
+  }
+  .sidebar ul li > *:first-child {
+    margin-right: 10px; 
+  }
+  #bot{
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.pro{
+    display: flex;
+    align-items: center;
+    margin-top: 210px;
+    gap: 9px;
+  }
+  .dropdown-menu {
+    position: absolute;
+    top: 67%;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.142);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 70%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-menu li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: rgba(89, 88, 88, 0.862);
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
