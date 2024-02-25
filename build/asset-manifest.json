@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f6827cd6.css",
-    "main.js": "/static/js/main.78f90243.js",
+    "main.js": "/static/js/main.437cc8fc.js",
     "static/js/453.b0ec2a1d.chunk.js": "/static/js/453.b0ec2a1d.chunk.js",
     "static/media/spiderman.jpg": "/static/media/spiderman.bb1a9bdb07c0bd14b8eb.jpg",
     "static/media/balebat.jpg": "/static/media/balebat.89d04371dcd76909b9ca.jpg",
@@ -9,11 +9,11 @@
     "static/media/logoFro.png": "/static/media/logoFro.1a3eed0111a4e8d00bf0.png",
     "index.html": "/index.html",
     "main.f6827cd6.css.map": "/static/css/main.f6827cd6.css.map",
-    "main.78f90243.js.map": "/static/js/main.78f90243.js.map",
+    "main.437cc8fc.js.map": "/static/js/main.437cc8fc.js.map",
     "453.b0ec2a1d.chunk.js.map": "/static/js/453.b0ec2a1d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6827cd6.css",
-    "static/js/main.78f90243.js"
+    "static/js/main.437cc8fc.js"
   ]
 }
